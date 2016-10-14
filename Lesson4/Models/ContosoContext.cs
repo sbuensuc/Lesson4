@@ -8,7 +8,7 @@ namespace Lesson4.Models
     public partial class ContosoContext : DbContext
     {
         public ContosoContext()
-            : base("name=ContosoConnection")
+            : base("name=ContosoContext")
         {
         }
 
